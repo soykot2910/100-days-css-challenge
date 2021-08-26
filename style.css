@@ -1,0 +1,69 @@
+body{
+    font-family: 'Courier New', 'Courier', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to top right, #43389F 0%, #4ec6ca 100%); 
+    text-align: center;
+    padding: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 15rem;
+}
+.number{
+    margin-left: 6rem;
+    display: flex;
+    margin-top: 4rem;
+    
+}
+.oneTop{
+    background: #fff;
+    width: 1.3rem;
+    height: 2.5rem;
+    transform: rotate(48deg);
+    border-radius: 2px;
+    z-index: 100;
+}
+.one{
+    width: 1.3rem;
+    height: 6rem;
+    z-index: 100;
+    border-radius: 2px;
+    margin-left: -5px;
+    background: #fff;
+    z-index: 50;
+    box-shadow: 1px -1px 10px -3px rgba(0,0,0,0.20);
+}
+.zeroMid{
+    background-color: inherit;
+    border: 1.6rem solid #FFF;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-left: -10px;
+    box-shadow: 1px -1px 10px -3px rgba(0,0,0,0.20);
+    z-index: 10; 
+}
+.zeroEnd{
+    background-color: inherit;
+    border: 1.6rem solid #FFF;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    margin-left: -18px;
+    z-index: 0; 
+}
+.text{
+    margin-top: -4rem;
+}
+.textBig{
+  font-size: 5rem;
+  margin-bottom: -1rem;
+}
+.textSmall{
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
